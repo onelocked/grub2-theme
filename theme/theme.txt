@@ -1,6 +1,3 @@
-# GRUB2 gfxmenu Linux theme
-# Designed for any resolution
-
 # Global Property
 title-text: ""
 desktop-image: "background.png"
@@ -15,9 +12,9 @@ terminal-border: "0"
 
 # Show the boot menu
 + boot_menu {
-  left = 8%
-  top = 30%
-  width = 40%
+  left = 13%
+  top = 38%
+  width = 25%
   height = 40%
   item_font = "Unifont Regular 32"
   item_color = "#9e8058"
@@ -32,16 +29,16 @@ terminal-border: "0"
 }
 
 + image {
-  top = 6%
-  left = 20%
+  top = 4%
+  left = 16%
   width = 584
   height = 392
   file = "logo.png"
 }
 
 + image {
-  top = 100%-160
-  left = 28%-480
+  top = 100%-250
+  left = 30%-625
   width = 960
   height = 84
   file = "info.png"
